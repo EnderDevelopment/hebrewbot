@@ -1,0 +1,16 @@
+{
+  "name": "hebrew-discord-bot",
+  "version": "1.0.0",
+  "description": "A Hebrew-speaking Discord bot with channel-restricted slash commands and join welcomes.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
